@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/adamclifford
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adamclifford.github.io
+  * I am adamclifford (https://keybase.io/adamclifford) on keybase.
+  * I have a public key with fingerprint 60B9 6959 1D19 1ED3 4723  5480 38DA 4580 AC4F 1C0F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101be9cf71440329ec7f8bfee43daa73a1ad8b12d6852f1866baf8a0e0b731d4fbc0a",
+      "fingerprint": "60b969591d191ed34723548038da4580ac4f1c0f",
+      "host": "keybase.io",
+      "key_id": "38da4580ac4f1c0f",
+      "kid": "0101be9cf71440329ec7f8bfee43daa73a1ad8b12d6852f1866baf8a0e0b731d4fbc0a",
+      "uid": "d50fc3b6e435a1c2aa32c83f92e34819",
+      "username": "adamclifford"
+    },
+    "service": {
+      "hostname": "adamclifford.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1570224117,
+  "expire_in": 157680000,
+  "prev": "6cfa251bf78e9a56b5084ff563ec7aea0ad0fb95623d2994145b72125d16c78d",
+  "seqno": 41,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSFRBGN61rHWzMiiKEoITIYHKmXM/C13QoMLUTCUobZk5M7MeWs/Z
+9px1MxMUQSQruhDSGkQZsZb0IJSlQXYhCruQSKAP+dAFuj1kmoiGnWP15mPzMsw/
+3/fN9/3zP166wOP3ZpXW8ltv9tR7Bx5ci3kq23om6hhk4lomUMccInMbCWNi2cFD
+OmYCDAtYgIiqURkIAstzKtFkqiBKiMBjCGUeAogVBDgsKSJHgSJJCFIFsoRFMg+w
+QJHGQiaboboRItFIVDdsR1ZikSqpogowUAHBvCBzvCgoLK9gKIgKCzWBAo2lDrHK
+tFyGYw5Bi+TqplNzDsE5e/Pg/7Pv2JwcFlmq8Uhy2CIEGgchz2kKT1WO8IICVBdo
+kagBq4mDhhhWa2GdUjOKmfpsxrmp0TXiNtdNMw8qN6TbVTH0J10katqmZoYdTJVt
+R6yAq2HXRlxSnKDgX7kg0g3sdNVh1JCopZsGEwAOUrN1Vx+IMstxAgByNkOORPQo
+CerGXFlSWGe575Aa9y80CjkRICorRIWihERWESgVJd7pGSSQhZilSBUljsecqgpA
+EJHMAU7EQNJkBTNuwMOGyQQE4PiEIUfT0kMGtGNRwtQ/7K9Y6PH6PYtSU9xx8/jT
+Mv4NYcuEz9P+6niiMHLnSPr1+JcXezq7SnP8zb23ZwA89XHE+/xbd3nH1MXvK9f0
+hgcmP+/iR8tTl6z2zCT7jJHXVsEx38ob5e2bptc2NRT/HMr56r2bHM86nXNsfWAW
+fJrsT2aWNFe2/Nq36tFQXl5otGvjbOzJs5eDXWPw1sGd9wNE618+vujssvcdJ/av
+et/a6MsP9U09r13cMJZ4U/K2e8vbDqtxoDtrL5quetoWLh5L/RQ/mij7kHned28m
+WbZuOzN8NORPKerb9ihtt5xf5levvCu6OpgyuqJuR+yzlqjrXWJ0FqTNlpxJFg5f
+OvkjsflCvKRC33ag9VzGhibjcjp3tfrZKPwNV9FK4Q==
+=8pDR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adamclifford
+
+==================================================================
