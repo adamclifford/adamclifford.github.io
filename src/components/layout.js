@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <SEO title={site.siteMetadata.title} />
-      <div class="container">
+      <div className="container">
         <main>{children}</main>
         <footer>
           <br />

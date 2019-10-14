@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 
+import me from "../images/me.jpg"
+
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +20,7 @@ const IndexPage = () => (
     <div className="inner grid">
       <div className="cell c4of12">
 
-        <p><img className="u-photo" src="me.jpg" alt="Adam Clifford" />
+        <p><img className="u-photo" src={me} alt="Adam Clifford" />
         </p>
       </div>
       <div className="cell c8of12">
