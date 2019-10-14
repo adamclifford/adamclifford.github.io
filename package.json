@@ -4,13 +4,37 @@
   "version": "1.0.0",
   "description": "My personal website",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@personal:adamclifford/adamclifford.github.io.git"
   },
   "author": "Adam Clifford",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.15.36",
+    "gatsby-image": "^2.2.27",
+    "gatsby-plugin-manifest": "^2.2.21",
+    "gatsby-plugin-netlify-cms": "^4.1.23",
+    "gatsby-plugin-offline": "^3.0.14",
+    "gatsby-plugin-react-helmet": "^3.1.11",
+    "gatsby-plugin-sass": "^2.1.18",
+    "gatsby-plugin-sharp": "^2.2.29",
+    "gatsby-source-filesystem": "^2.1.31",
+    "gatsby-transformer-sharp": "^2.2.21",
+    "gh-pages": "^2.1.1",
+    "netlify-cms": "^2.9.7",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  }
 }
