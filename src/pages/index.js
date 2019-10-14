@@ -22,7 +22,7 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="cell c8of12">
-        <p>
+        <p className="p-note">
           Hi, my name is <span className="p-name">Adam Clifford</span> and I am a human on the Internet.
         </p>
         <p>
