@@ -1,0 +1,21 @@
+nav h1 {
+  float: left;
+}
+nav h1:after {
+  content: none !important;
+}
+
+nav ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  display: inline;
+}
+
+nav li {
+  padding-left: 0 !important;
+  float: right !important;
+  padding: 20px 0px 8px 30px !important;
+}
+nav li:after {
+  content: none !important;
+}

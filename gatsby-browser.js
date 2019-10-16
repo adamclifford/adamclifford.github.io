@@ -8,3 +8,4 @@
 
 import "./src/styles/hack.css"
 import "./src/styles/dark.css"
+import "./src/styles/site.css"

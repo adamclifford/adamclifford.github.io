@@ -7,38 +7,39 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import SEO from "./seo"
-
+import { Link } from "gatsby"
 const Layout = ({ children }) => {
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
-    <>
-      <SEO title={site.siteMetadata.title} />
-      <div className="container">
-        <main>{children}</main>
-        <footer>
-          <br />
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
+    <div className="container">
+      <header>
+        <nav>
+        <ul>
+            <li>
+              <Link to="/blog">/Blog</Link>
+            </li>
+            <li>
+              <Link to="/notes">/Notes</Link>
+            </li>
+          </ul>
+          <h1>
+            <Link to="/">Adam Clifford</Link>
+          </h1>
+
+          
+        </nav>
+      </header>
+      <main>{children}</main>
+      <footer>
+        <br />© {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
+    </div>
   )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
