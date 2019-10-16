@@ -10,15 +10,15 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 const Layout = ({ children }) => {
   return (
-    <div className="container">
-      <header>
+    <div className="container container-fluid">
+      <header className="header">
         <nav>
-        <ul>
+        <ul className="menu">
             <li>
-              <Link to="/blog">/Blog</Link>
+              <Link to="/blog" activeClassName="active" partiallyActive={true} className="menu-item" >/Blog</Link>
             </li>
             <li>
-              <Link to="/notes">/Notes</Link>
+              <Link to="/notes" activeClassName="active" className="menu-item">/Notes</Link>
             </li>
           </ul>
           <h1>
@@ -28,8 +28,9 @@ const Layout = ({ children }) => {
           
         </nav>
       </header>
-      <main>{children}</main>
-      <footer>
+      <main className="content" >{children}</main>
+      <br /> 
+      <footer className="footer">
         <br />© {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>

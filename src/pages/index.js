@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,7 +9,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Index" />
-      
 
       <div className="alert alert-info">
         <span className="loading"></span>
@@ -42,13 +41,9 @@ const IndexPage = () => {
               <p>You can find me on other websites below:</p>
               <ul>
                 <li>
-                  <a
-                    className="u-url"
-                    href="https://www.adamclifford.dev"
-                    rel="me"
-                  >
-                    Blog{" "}
-                  </a>
+                  <Link className="u-url" to="/blog" rel="me">
+                    Blog
+                  </Link>
                 </li>
                 <li>
                   <a

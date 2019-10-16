@@ -1,14 +1,20 @@
-nav h1 {
-  float: left;
+html {
+  font-size: 1em;
 }
+
+.hack h1{
+  padding: 1em 0 1.5em;
+}
+
 nav h1:after {
   content: none !important;
 }
 
+
 nav ul {
   list-style-type: none !important;
   margin: 0 !important;
-  display: inline;
+  display: inline !important;
 }
 
 nav li {
@@ -16,6 +22,33 @@ nav li {
   float: right !important;
   padding: 20px 0px 8px 30px !important;
 }
+.post-footer li:after,
 nav li:after {
   content: none !important;
+}
+
+nav .menu .menu-item.active{
+  background-color: #ff2e88;
+  border-bottom: 1px solid #ff2e88 !important;
+}
+.menu .menu-item:hover{
+  background-color: #ff2e88;
+  color: #fff;
+}
+
+.post-footer ul{
+  list-style-type: none !important;
+  padding: 0 !important;
+  display: inline !important;
+}
+.post-footer li .next{
+  float:right;
+}
+.post-footer li .previous{
+  float:left;
+  padding-left:0px;
+}
+
+.hack hr:after{
+  content:"--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
 }

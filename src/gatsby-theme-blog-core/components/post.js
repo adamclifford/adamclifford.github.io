@@ -12,14 +12,17 @@ export default ({ location, data }) => {
   return (
     <Layout location={location} title={site.siteMetadata.title}>
       <Seo title={blogPost.title} description={blogPost.excerpt} />
-      <main>
-        <h1>{blogPost.title}</h1>
-        <p>
-          {blogPost.date}
-        </p>
-        <MDXRenderer>{blogPost.body}</MDXRenderer>
-      </main>
-      <PostFooter {...{ previous, next }} />
+      <section>
+        <article>
+          <header>
+            <h1>{blogPost.title}</h1>
+            <p>{blogPost.date}</p>
+          </header>
+          <MDXRenderer>{blogPost.body}</MDXRenderer>
+
+          <PostFooter {...{ previous, next }} />
+        </article>
+      </section>
     </Layout>
   )
 }
